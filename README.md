@@ -1,4 +1,4 @@
-- Resource-Efficient Anomaly Detection for 5G Network Equipment
+- Resource-Efficient Anomaly Detection for 5G Basestation
 
 This project introduces a solution to efficiently detect performance anomalies in radio units (RUs) within 5G networks, addressing the constraints of hardware resources. Utilizing Bayesian Adversarial Autoencoder (BAAE) and a Selective Re-Training (ST) algorithm based on uncertainty measures, this system offers an innovative approach to monitoring large-scale network environments.
 
