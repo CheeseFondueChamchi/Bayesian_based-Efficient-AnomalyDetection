@@ -1,0 +1,25 @@
+DB:
+  host: '143.248.159.142'
+  port: 15432
+  dbname: 'test_db'
+  user: 'test'
+  password: '1234'
+  lastmin: 10
+  local_save: False  # if False, does not save any train/inference data on local from db
+MODEL:
+  multi_proc: True
+  n_proc: 1
+  max_cell: -1  # if -1, continue with all cells of data
+  aae_maha_savepath: './models/aae_maha'
+  aae_state_savepath: './models/model_aae_state'
+  train_stat_savepath: './data/mean_std'
+
+LOG:
+  logpath: './data/logs/inference_debug.log'
+  loglevel: 'debug'
+
+
+# type A table name: tbl_stat_5g_cu_du_5min_cur (is for inference)
+# type B table name: tbl_stat_5g_cu_du_5min (is for training)
+# type C table name: tbl_ai_output (is for saving results)
+

@@ -1,0 +1,33 @@
+DB: # psql cmd: psql -U bdo_ai -h 172.21.222.198 -p 5432 -d bdo
+  host: localhost # '172.21.222.198' (deprecated at 0802)
+  port: 5432
+  dbname: 'postgres'
+  user: 'bdo_ai'
+  password: 'bdo1234!@'
+  lastmin: 10
+  local_save: False  # if False, does not save any train/inference data on local from db
+MODEL:
+  multi_proc: True
+  condition_training : False
+  uncertainty_checker_train : True
+  uncertainty_checker_valid : True
+  num_gpu : 2
+  n_proc: 20
+  max_cell: -1  # if -1, continue with all cells of data
+  aae_maha_savepath: './models/aae_maha'
+  aae_state_savepath: './models/model_aae_state'
+  train_stat_savepath: './data/mean_std'
+  train_uncertaintiy_savepath: './data/uncertainty/train'
+  valid_uncertaintiy_savepath: './data/uncertainty/valid'
+  uncertainty_check : True
+
+XGB:
+  duration: '2021-06-29/2022-03-29'
+  xgb_savepath: './models/xgb_checkpoints'
+
+
+LOG:
+  logpath: './data/logs/inference_debug.log'
+  loglevel: 'error'
+
+
