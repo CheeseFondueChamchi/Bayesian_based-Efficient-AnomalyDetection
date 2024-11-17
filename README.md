@@ -2,6 +2,8 @@
 
 This project introduces a solution to efficiently detect performance anomalies in radio units (RUs) within 5G networks, addressing the constraints of hardware resources. Utilizing Bayesian Adversarial Autoencoder (BAAE) and a Selective Re-Training (ST) algorithm based on uncertainty measures, this system offers an innovative approach to monitoring large-scale network environments.
 
+-------------------------------------------------------------------------------------------------------------------------
+
 - Solution Overview
 
 To maintain reliable Quality of Service (QoS) in 5G networks, radio units must be monitored continuously for anomalies. The high computational load required for anomaly detection across a vast number of RUs presents a challenge. This project tackles that issue by implementing a selective retraining method that reduces unnecessary model updates, cutting computing costs while maintaining accuracy.
@@ -10,7 +12,6 @@ Anomaly Detection Model - BAAE
 The BAAE model quantifies model uncertainty, allowing the system to update only when there is significant deviation in the monitored data.
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/7a4a9738-5e47-4da9-b8a2-0eafb92d28d6">
-
 
 Performance Management (PM) Data
 The PM data consists of key performance indicators that vary across environments and are critical to understanding equipment health. This data is the foundation for anomaly detection.
@@ -28,6 +29,7 @@ The data used for training and monitoring contains multiple performance indicato
 
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/9cb95539-28d8-44eb-8fb5-53764d15c170">
 
+-------------------------------------------------------------------------------------------------------------------------
 
 - Algorithm
 
@@ -36,6 +38,7 @@ The Selective Re-Training (ST) algorithm calculates the uncertainty of each RU m
 
 <img width="523" alt="image" src="https://github.com/user-attachments/assets/1211de46-dd05-4e08-b6e5-15cc86f97723">
 
+-------------------------------------------------------------------------------------------------------------------------
 
 - Results
 
