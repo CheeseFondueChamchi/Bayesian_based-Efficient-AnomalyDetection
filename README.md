@@ -47,7 +47,7 @@ Our simulation demonstrates that the ST algorithm reduces retraining needs by ap
 <img width="1020" alt="image" src="https://github.com/user-attachments/assets/1db9e043-e75d-49bf-b128-5c7e565d8797">
 
 
-Key Features
+- Key Features
 
 Efficient Resource Usage: Minimizes unnecessary model updates by selectively retraining based on uncertainty analysis.
 Enhanced Reliability: Uses Bayesian methods to quantify uncertainty, ensuring high-confidence anomaly detection.
