@@ -14,10 +14,13 @@ The BAAE model quantifies model uncertainty, allowing the system to update only 
 
 <img width="953" alt="image" src="https://github.com/user-attachments/assets/7a4a9738-5e47-4da9-b8a2-0eafb92d28d6">
 
+
 - Performance Management (PM) Data
+  
 The PM data consists of key performance indicators that vary across environments and are critical to understanding equipment health. This data is the foundation for anomaly detection.
 
 <img width="1017" alt="image" src="https://github.com/user-attachments/assets/fda3a0fb-0913-4dc2-a784-d0dced048a83">
+
 
 - STFT Analysis of PM Data
   
@@ -25,11 +28,13 @@ Short-Time Fourier Transform (STFT) is applied to PM data, transforming time-dom
 
 <img width="1012" alt="image" src="https://github.com/user-attachments/assets/da759d0a-c037-4884-9a20-2be7f7c171fe">
 
+
 - Input Data Structure
 
 The data used for training and monitoring contains multiple performance indicators per RU, collected periodically.
 
 <img width="535" alt="image" src="https://github.com/user-attachments/assets/9cb95539-28d8-44eb-8fb5-53764d15c170">
+
 
 -------------------------------------------------------------------------------------------------------------------------
 
